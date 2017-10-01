@@ -1,0 +1,35 @@
+CreateANewLecture create a new {LectureName} Lecture
+CreateANewLecture create a new Lecture
+CreateANewLecture create new {LectureName} Lecture
+CreateANewLecture create new Lecture
+CreateANewLecture start a new {LectureName} Lecture
+CreateANewLecture start a new Lecture
+CreateANewLecture start new {LectureName} Lecture
+CreateANewLecture start new Lecture
+CreateANewLecture create a {LectureName} Lecture
+CreateANewLecture create a Lecture
+CreateANewLecture create {LectureName} Lecture
+CreateANewLecture create Lecture
+CreateANewLecture start a {LectureName} Lecture
+CreateANewLecture start a Lecture
+CreateANewLecture start {LectureName} Lecture
+CreateANewLecture start Lecture
+CatchAllIntent {transcribe | CatchAll}
+CatchAllIntent {transcribe this | CatchAll}
+CatchAllIntent {transcribe now | CatchAll}
+CatchAllIntent {transcribe it | CatchAll}
+RecordForMinutes create a new lecture for {ForMinutes}
+RecordForMinutes create new lecture for {ForMinutes}
+RecordForMinutes create a new meeting for {ForMinutes}
+RecordForMinutes create new meeting for {ForMinutes}
+CheckForDeadline get the deadline for last assignment
+AddMyEmail my email is {A | emails} at {mailProvider} dot {ending}
+AddMyEmail my email is {A | emails} at {mailProvider} dot {ending} dot {ending}
+AddMyEmail its {A | emails} at {mailProvider} dot {ending}
+AddMyEmail its {A | emails} at {mailProvider} dot {ending} dot {ending}
+AddMyEmail it is {A | emails} at {mailProvider} dot {ending}
+AddMyEmail it is {A | emails} at {mailProvider} dot {ending} dot {ending}
+GetTheMessage to get the {subject} lecture
+GetTheMessage to get the Physics lecture on {physicskey}
+GetTheMessage to get the Chemistry lecture {chemkey}
+GetTheMessage to get the Bio lecture on {biokey}

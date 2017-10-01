@@ -1,0 +1,72 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "LectureName",
+          "type": "courses"
+        }
+      ],
+      "intent": "CreateANewLecture"
+    },
+    {
+      "slots": [
+        {
+          "name": "CatchAll",
+          "type": "AMAZON.LITERAL"
+        }
+      ],
+      "intent": "CatchAllIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "ForMinutes",
+          "type": "AMAZON.DURATION"
+        }
+      ],
+      "intent": "RecordForMinutes"
+    },
+    {
+      "slots": [
+        {
+          "name": "subject",
+          "type": "courses"
+        },
+        {
+          "name": "physicskey",
+          "type": "physicskey"
+        },
+        {
+          "name": "chemkey",
+          "type": "chemkey"
+        },
+        {
+          "name": "biokey",
+          "type": "biokey"
+        }
+      ],
+      "intent": "GetTheMessage"
+    },
+    {
+      "intent": "CheckForDeadline"
+    },
+    {
+      "slots": [
+        {
+          "name": "mailProvider",
+          "type": "mailProviders"
+        },
+        {
+          "name": "emails",
+          "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "ending",
+          "type": "endings"
+        }
+      ],
+      "intent": "AddMyEmail"
+    }
+  ]
+}
