@@ -1,4 +1,6 @@
 # AlexaScribe
+## A 24-hours [EduHacks](https://eduhacks.com/) Project
+
 ### Inspiration:
 As a student I'm always stuck between if I should focus on understanding what the instructor is trying to teach in class or should I be focusing on taking notes trying to keep them organized so that I can go through them once I reach home, which rarely happens.
 Even if I do manage to make notes, it's hard to keep them organized and query through them. I always wanted someone who I can ask anytime what was this topic about or what is that without having to resort to a browser. In the AI driven world and through availability of correct resources I was able to make AlexaScribe.
