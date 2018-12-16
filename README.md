@@ -17,12 +17,12 @@ The application was built with the following technologies:
 
 	• Backend – AWS Lambda service to connect with Alexa 
 	• Hardware - Alexa
-	• Database – MongoDB  with node work really well with NoSQL non-relational databases.
+	• Database – DynamoDB
   
 
 
 ### Challenges I ran into:
 As this prototype was built within 24 hours, there were a lot of challenges that I ran into. 
-As I was creating a transcription application, I wanted to make sure that I can keep an Alexa session active for longer than a just few seconds so I had read over a lot of documentation and finally I was able to change a few setting within the Alexa skill source code that let me keep the existing interactions active for longer.
+As I was creating a transcription application, I wanted to make sure that I can keep an Alexa session active for longer than a just few seconds so I had read over a lot of documentation and finally I was able to change a few settings within the Alexa skill source code that let me keep the existing interactions active for longer.
 
-Next was querying over the notes dataset. When the user asks a question, I extract the intent of that question and then perform a search over the saved notes dataset to ensure that I can get the more accurate response back.
+Next was querying over the notes dataset. When the user asks a question, I extract the intent of that question and then perform a search over the saved notes dataset to ensure that I can get the most accurate response back.
